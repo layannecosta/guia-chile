@@ -1,0 +1,55 @@
+/* src/assets/style.css */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Estilos personalizados globais */
+
+:root {
+  --color-primary: #8a2be2; /* Roxo Azulado */
+  --color-secondary: #6a5acd; /* Azul Ardósia */
+  --color-text-dark: #2c3e50;
+  --color-text-light: #ecf0f1;
+}
+
+/* Estilos para um botão personalizado que não seja puramente Tailwind */
+.btn-custom-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px; /* Full rounded */
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-custom-primary:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para um contêiner de cartão genérico (se não usar Tailwind diretamente) */
+.card-base {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Estilos para elementos HTML básicos que podem precisar de um reset ou ajuste */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
