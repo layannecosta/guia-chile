@@ -40,7 +40,7 @@ export default {
           name: 'Palacio de La Moneda',
           description: 'Sede do governo chileno, símbolo da história política do país. Possui visitas guiadas e a troca de guarda é uma atração à parte.',
           category: 'História',
-          image: require('@/assets/lamoneda.jpg'),
+          image: require('./assets/lamoneda.jpg'),
           link: 'https://pt.wikipedia.org/wiki/Palácio_de_La_Moneda'
         },
         {
