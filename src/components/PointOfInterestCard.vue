@@ -1,6 +1,6 @@
 <template>
   <div class="point-card bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
-    <img :src="`/assets/${point.image}`" :alt="point.name" class="w-full h-48 object-cover">
+   <img :src="imageUrl" :alt="point.name" class="w-full h-48 object-cover">
     <div class="p-5">
       <h3 class="text-xl font-bold text-gray-900 mb-2">{{ point.name }}</h3>
       <p class="text-gray-700 text-sm mb-3">{{ point.description }}</p>
